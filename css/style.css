@@ -1,0 +1,168 @@
+body {
+    box-sizing: border-box;
+}
+
+h1{
+    color: #fff;
+}
+
+h2 {margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+/*h2:after{content:"";
+    height: 5px;
+    background: black;
+    display: block;
+    border-radius:5px;
+}*/
+
+/*nav style*/
+
+.navbar-default{
+    margin: 0px;
+    background-color:transparent;
+    position: fixed;
+    color: #fff;
+    z-index: 1000;
+    width: 100%;
+    border:transparent;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color:#fff;
+    font-size: 1.5rem;
+    width: 100px;
+    margin-top:5px;
+    transition: 0.3s;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius:5px;
+  
+}
+
+
+
+.navbar-default .navbar-toggle:hover{
+    background: darkgrey;
+    transition: 0.2s;
+}
+.navbar-default .navbar-toggle:focus{
+    background: red;
+    transition: 0.2s;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+   
+    transition: 0.5s;
+    border-top:5px;
+       border:1px solid grey;
+  border-radius:5px;
+    
+}
+
+
+/*Header *********************************************************************************************************************************************************************/
+header {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/mac-2619994_1280.jpg);
+    width: 100%;
+  
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+
+header #header-caption {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+/*Section About******************************************************************************************************************************************/
+#about{
+    height: 100vh;
+}
+
+#about figure {
+    max-width: 348px;
+    max-height: 440px;
+    overflow: hidden;
+    position: relative;
+    border-radius:60%;
+}
+
+#about figure img {
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.4s;
+    border-radius:60%;
+   
+    transition:all 0.9s;
+   
+}
+
+#about figure img:hover {
+   
+    opacity: 1;
+    transition: all 0.9s;
+}
+
+.link {
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    color: #fff;
+    display: none;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+
+.link p{font-size: 1.5em;
+   position: absolute;
+    
+    top: 50%;
+   left:0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/*About section*/
+
+#about figure:hover .link {
+    background-color: #111;
+    opacity: 0.8;
+    transition: 0, 4s;
+    display: block;
+}
+
+#about a{
+   color:black;
+}
+
+#about .fa{
+    margin: 10px;
+}
+
+#about .fa:hover{
+    color:grey;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+#about .row{margin: 0px;}
+
