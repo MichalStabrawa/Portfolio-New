@@ -91,9 +91,7 @@ header #header-caption {
 }
 
 /*Section About******************************************************************************************************************************************/
-#about{
-    height: 100vh;
-}
+
 
 #about figure {
     max-width: 348px;
@@ -146,6 +144,8 @@ header #header-caption {
 
 /*About section*/
 
+
+
 #about figure:hover .link {
     background-color: #111;
     opacity: 0.8;
@@ -176,7 +176,7 @@ header #header-caption {
     margin-top: 50px;
 }
 
-#skills  .col-md-4{border-radius:5px;
+#skills  .col-md-4, col-sm-6{border-radius:5px;
     padding: 5px;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
