@@ -1,3 +1,4 @@
+
 $(function () {
     var okno = $(window);
     var menu = $('#main-nav');
@@ -29,47 +30,51 @@ var menuHeight = $('#main-nav').height();
 });
 
 /*Toogle-------------------------------------------------------------------------------------------------------------- */
-$(document).ready(function(){
-    $(".btn").click(function(){
-        $("#div1").toggle(1000);
-    });
-});
+//$(document).ready(function(){
+  //  $(".btn").click(function(){
+   //     $("#div1").toggle(1000);
+   // });
+//});
 
 
-function wyslij(){
-    var pokazDiva=document.getElementById('pokaz')  
-    document.getElementById('pokaz').style="display:block"
-}
+//function wyslij(){
+//    var pokazDiva=document.getElementById('pokaz')  
+ //   document.getElementById('pokaz').style="display:block"
+//}
 
-document.getElementById('button1').addEventListener('click',wyslij)
+//document.getElementById('button1').addEventListener('click',wyslij)
 
 
 /*Popup*******************************************************************************************************************************8*/
 
-var myVar;
+//var myVar;
 
-function myFunction() {
-    myVar = setTimeout(popUp, 3000);
-};
-
-
-function popUp(){
-  var popSchowaj=document.getElementById('popup');
-  popSchowaj.style="display:block"
-};
-
-function popUp1(){
-    var baner=document.getElementById('popup')
-    baner.style='display:none'
-    }
-document.getElementById('popNone').addEventListener('click',popUp1)
+//function myFunction() {
+   // myVar = setTimeout(popUp, 3000);
+//};
 
 
+//function popUp(){
+//  var popSchowaj=document.getElementById('popup');
+ // popSchowaj.style="display:block"
+//};
 
-/*H1 efects*/
+//function popUp1(){
+   // var baner=document.getElementById('popup')
+    //baner.style='display:none'
+   // }
+//document.getElementById('popNone').addEventListener('click',popUp1)
 
-$('.tlt').textillate({ 
-  in: { effect: 'splat' },
-  out: { effect: 'foldUnfold', sync: true },
-  loop: true
-});
+
+/*Skills1 Hide----------------------------------------------------------------------------------------------------------------*/
+function hideSkills1(){
+   document.getElementById('skills1').style='display:none';
+}
+document.getElementById('skillsHtml').addEventListener('click',hideSkills1);
+
+/*Skills1 Show*/
+
+function show1Skills(){
+    document.getElementById('skills1').style='display:block';
+}
+document.getElementById('show1').addEventListener('click',show1Skills);

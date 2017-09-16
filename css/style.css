@@ -175,6 +175,9 @@ header #header-caption {
 #skills{
     margin-top: 50px;
 }
+#skills .container{
+    position: relative;
+}
 
 #skills  .col-md-4, col-sm-6{border-radius:5px;
     padding: 5px;
@@ -194,7 +197,7 @@ header #header-caption {
     border-radius:5px;
 }
 
-#skills img:h15over{opacity:0.6;
+#skills img:hover{opacity:0.6;
     background: grey;
     transition: 0.3s;
 }
@@ -202,4 +205,37 @@ header #header-caption {
 figcaption{
     margin-bottom: 15px;
 }
+
+#skills figure{
+    text-align: center;
+}
+
+#skills figure img{
+    width: 250px;
+    border: transparent;
+}
+
+#skills1{position: fixed;
+    z-index: 1002;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    border: 1px solid black;
+    border-radius:5px;
+    background:grey;
+    opacity: 0.99;
+    height: 100vh;
+    display:none;
+}
+
+#skills1 #skillsHtml{
+    position:absolute;
+    z-index: 101;
+    right: 1%;
+    top:1%;
+}
+
+
+
 
