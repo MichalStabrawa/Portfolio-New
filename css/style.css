@@ -13,6 +13,8 @@ h2 {margin-left: auto;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     border-radius: 5px;
+    
+    margin-top: 50px;
 }
 /*h2:after{content:"";
     height: 5px;
@@ -81,7 +83,7 @@ header {
 header #header-caption {
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-50%);
     text-align: center;
     left: 0;
@@ -165,4 +167,39 @@ header #header-caption {
     transition: 0.5s;
 }
 #about .row{margin: 0px;}
+
+
+
+/*Skills style start*/
+
+#skills{
+    margin-top: 50px;
+}
+
+#skills  .col-md-4{border-radius:5px;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    margin-top:50px;
+    
+}
+
+#skills  .col-md-4:hover{
+    background: grey;
+}
+
+#skills img{
+  
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+#skills img:h15over{opacity:0.6;
+    background: grey;
+    transition: 0.3s;
+}
+
+figcaption{
+    margin-bottom: 15px;
+}
 

@@ -66,3 +66,10 @@ document.getElementById('popNone').addEventListener('click',popUp1)
 
 
 
+/*H1 efects*/
+
+$('.tlt').textillate({ 
+  in: { effect: 'splat' },
+  out: { effect: 'foldUnfold', sync: true },
+  loop: true
+});
