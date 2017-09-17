@@ -67,10 +67,14 @@ var menuHeight = $('#main-nav').height();
 
 
 /*Skills1 Hide----------------------------------------------------------------------------------------------------------------*/
-function hideSkills1(){
-   document.getElementById('skills1').style='display:none';
-}
-document.getElementById('skillsHtml').addEventListener('click',hideSkills1);
+//function hideSkills1(){
+ //  document.getElementById('skills1').style='display:none';
+//}
+//document.querySelectorAll('skillsHtml').addEventListener('click',hideSkills1);
+
+//
+
+
 
 /*Skills1 Show*/
 
@@ -78,3 +82,8 @@ function show1Skills(){
     document.getElementById('skills1').style='display:block';
 }
 document.getElementById('show1').addEventListener('click',show1Skills);
+
+function show1Skills2(){
+    document.getElementById('skills2').style='display:block';
+}
+document.getElementById('show2').addEventListener('click',show1Skills2);

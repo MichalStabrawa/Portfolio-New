@@ -211,7 +211,7 @@ figcaption{
 
 
 
-
+/*Skills1*/
 
 #skills1{position: fixed;
     z-index: 1002;
@@ -230,19 +230,41 @@ figcaption{
 
 #skills1 img{
    width: 90%;
-    height: 90%;
-    margin: 5px;
+    height: 80%;
+    margin: 0;
 }
 
-#skills1 #skillsHtml{
+#skills1 .skillsHtml{
     position:absolute;
     z-index: 101;
     right: 1%;
     top:1%;
 }
 
+/*Skills2*/
 
 
+#skills2{position: fixed;
+    z-index: 1002;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    border: 1px solid black;
+    border-radius:5px;
+    background:grey;
+    opacity: 0.99;
+    height: 100%;
+    display:none;
+    text-align: center;
+}
+
+#skills2 .skillsHtml{
+    position:absolute;
+    z-index: 101;
+    right: 1%;
+    top:1%;
+}
 
 
 
