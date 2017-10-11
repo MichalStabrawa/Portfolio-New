@@ -1,8 +1,8 @@
-body {
+body {font-family: 'Special Elite', cursive;
     box-sizing: border-box;
 }
 
-h1 {
+h1 {font-family: 'Special Elite', cursive;
     color: #fff;
 }
 
@@ -29,6 +29,14 @@ h2 {
 
 
 /*nav style*/
+
+#main-nav.scroll {color:black;
+    background-color: #fff;
+}
+
+#main-nav.scroll ul  a {
+    color: black;
+}
 
 .navbar-default {
     margin: 0px;
@@ -83,11 +91,26 @@ header {
 header #header-caption {
     width: 100%;
     position: absolute;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
     text-align: center;
     left: 0;
     right: 0;
+}
+
+header button{
+        width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color:#fff;
+    border-radius:10px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+header button:hover{
+    background-color: darkgray;
+    transition: 0.5s;
 }
 
 
@@ -281,7 +304,7 @@ figcaption {
     color:#fff;
 }
 
-#skills #container-other h2{ border-radius: 5px;
+ #container-other h2{ border-radius: 5px;
       border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
      width: 200px;
