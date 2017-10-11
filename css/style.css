@@ -2,20 +2,22 @@ body {
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     color: #fff;
 }
 
-h2 {margin-left: auto;
+h2 {
+    margin-left: auto;
     margin-right: auto;
     width: 200px;
     text-align: center;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     border-radius: 5px;
-    
     margin-top: 50px;
 }
+
+
 /*h2:after{content:"";
     height: 5px;
     background: black;
@@ -23,58 +25,54 @@ h2 {margin-left: auto;
     border-radius:5px;
 }*/
 
+
 /*nav style*/
 
-.navbar-default{
+.navbar-default {
     margin: 0px;
-    background-color:transparent;
+    background-color: transparent;
     position: fixed;
     color: #fff;
     z-index: 1000;
     width: 100%;
-    border:transparent;
+    border: transparent;
 }
 
-
 .navbar-default .navbar-nav>li>a {
-    color:#fff;
+    color: #fff;
     font-size: 1.5rem;
     width: 100px;
-    margin-top:5px;
+    margin-top: 5px;
     transition: 0.3s;
     border-left: 1px solid grey;
     border-bottom: 1px solid grey;
-    border-radius:5px;
-  
+    border-radius: 5px;
 }
 
-
-
-.navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:hover {
     background: darkgrey;
     transition: 0.2s;
 }
-.navbar-default .navbar-toggle:focus{
+
+.navbar-default .navbar-toggle:focus {
     background: red;
     transition: 0.2s;
 }
 
-.navbar-default .navbar-nav>li>a:hover{
-   
+.navbar-default .navbar-nav>li>a:hover {
     transition: 0.5s;
-    border-top:5px;
-       border:1px solid grey;
-  border-radius:5px;
-    
+    border-top: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 
 /*Header *********************************************************************************************************************************************************************/
+
 header {
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/mac-2619994_1280.jpg);
     width: 100%;
-  
     height: 100vh;
     background-position: top;
     background-size: cover;
@@ -90,39 +88,35 @@ header #header-caption {
     right: 0;
 }
 
-/*Section About******************************************************************************************************************************************/
 
+/*Section About******************************************************************************************************************************************/
 
 #about figure {
     max-width: 348px;
     max-height: 440px;
     overflow: hidden;
     position: relative;
-    border-radius:60%;
+    border-radius: 60%;
 }
 
 #about figure img {
     width: 100%;
     opacity: 0.5;
     transition: 0.4s;
-    border-radius:60%;
-   
-    transition:all 0.9s;
-   
+    border-radius: 60%;
+    transition: all 0.9s;
 }
 
 #about figure img:hover {
-   
     opacity: 1;
     transition: all 0.9s;
 }
 
 .link {
-   
     position: absolute;
     bottom: 0;
     width: 100%;
-    height:100%;
+    height: 100%;
     color: #fff;
     display: none;
     top: 50%;
@@ -130,21 +124,19 @@ header #header-caption {
     left: 0;
     right: 0;
     text-align: center;
-    
 }
 
-.link p{font-size: 1.5em;
-   position: absolute;
-    
+.link p {
+    font-size: 1.5em;
+    position: absolute;
     top: 50%;
-   left:0;
+    left: 0;
     right: 0;
     transform: translateY(-50%);
 }
 
+
 /*About section*/
-
-
 
 #about figure:hover .link {
     background-color: #111;
@@ -153,122 +145,151 @@ header #header-caption {
     display: block;
 }
 
-#about a{
-   color:black;
+#about a {
+    color: black;
 }
 
-#about .fa{
+#about .fa {
     margin: 10px;
 }
 
-#about .fa:hover{
-    color:grey;
+#about .fa:hover {
+    color: grey;
     transform: rotate(360deg);
     transition: 0.5s;
 }
-#about .row{margin: 0px;}
 
+#about .row {
+    margin: 0px;
+}
+
+.col-md-offset-3 {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 15px 20px -1px rgba(0, 0, 0, 0.53);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 
 
 /*Skills style start*/
 
-#skills{
+#skills {
     margin-top: 50px;
 }
-#skills .container{
+
+#skills .col-md-offset-3{
+      border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 15px 20px -1px rgba(0, 0, 0, 0.53);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#skills .container {
     position: relative;
     text-align: center;
 }
 
-#skills  .col-md-4, col-sm-6{border-radius:5px;
+#skills .col-md-4,
+col-sm-6 {
+    border-radius: 5px;
     padding: 5px;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
-    margin-top:50px;
-    
+    margin-top: 50px;
 }
 
-#skills  .col-md-4:hover{
+#skills .col-md-4:hover {
     background: grey;
 }
 
-
-
-
-
-figcaption{
+figcaption {
     margin-bottom: 15px;
 }
 
-
-
-#skills  img{
-   
+#skills img {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     border-radius: 10px;
 }
 
 
-
 /*Skills1*/
 
-#skills1{position: fixed;
+#skills1 {
+    position: fixed;
     z-index: 1002;
     top: 50%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
     border: 1px solid black;
-    border-radius:5px;
-    background:grey;
+    border-radius: 5px;
+    background: grey;
     opacity: 0.99;
-    height:95%;
-    display:none;
+    height: 95%;
+    display: none;
     text-align: center;
     background-image: url(../img/html-consol2.png);
     background-position: left top;
     background-size: cover;
-    
 }
 
-
-
-#skills1 #skillsHtml{
-    position:absolute;
+#skills1 #skillsHtml {
+    position: absolute;
     z-index: 101;
     right: 1%;
-    top:1%;
+    top: 1%;
     background-color: transparent;
-    color:#fff;
+    color: #fff;
     border: transparent;
-  
 }
+
 
 /*Skills2*/
 
-
-#skills2{position: fixed;
+#skills2 {
+    position: fixed;
     z-index: 1002;
     top: 50%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
     border: 1px solid black;
-    border-radius:5px;
-    background:grey;
+    border-radius: 5px;
+    background: grey;
     opacity: 0.99;
     height: 100%;
-    display:none;
+    display: none;
     text-align: center;
 }
 
-#skills2 .skillsHtml{
-    position:absolute;
+#skills2 .skillsHtml {
+    position: absolute;
     z-index: 101;
     right: 1%;
-    top:1%;
+    top: 1%;
+}
+
+#skills .container-fluid{
+    background-color: black;
+    color:#fff;
+}
+
+#skills .container-fluid #offset-other{
+   box-shadow: 0px 15px 20px -1px #fff;
+    
+}
+
+#skills .container-fluid .fa{
+   border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 10px;
 }
 
 
+/*other section*/
 
