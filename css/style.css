@@ -1,4 +1,4 @@
-body {font-family: 'Special Elite', cursive;
+body {
     box-sizing: border-box;
 }
 
@@ -207,7 +207,7 @@ header button:hover{
 #skills .col-md-offset-3{
       border-radius: 5px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     box-shadow: 0px 15px 20px -1px rgba(0, 0, 0, 0.53);
     padding-bottom: 5px;
     padding-top: 5px;
@@ -300,7 +300,7 @@ figcaption {
 }
 
 #skills .container-fluid{
-    background-color: black;
+    background-color: #3C3D3B;
     color:#fff;
 }
 
