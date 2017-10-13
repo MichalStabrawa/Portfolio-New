@@ -1,12 +1,15 @@
-body {font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
-h1 {font-family: 'Stardos Stencil', cursive;
+h1 {
+    font-family: 'Stardos Stencil', cursive;
     color: #fff;
 }
 
-h2 {font-family: 'Stardos Stencil', cursive;
+h2 {
+    font-family: 'Stardos Stencil', cursive;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
@@ -15,10 +18,7 @@ h2 {font-family: 'Stardos Stencil', cursive;
     border-bottom: 1px solid black;
     border-radius: 5px;
     margin-top: 50px;
-    
 }
-
-
 
 
 /*h2:after{content:"";
@@ -31,11 +31,12 @@ h2 {font-family: 'Stardos Stencil', cursive;
 
 /*nav style*/
 
-#main-nav.scroll {color:black;
+#main-nav.scroll {
+    color: black;
     background-color: #fff;
 }
 
-#main-nav.scroll ul  a {
+#main-nav.scroll ul a {
     color: black;
 }
 
@@ -99,17 +100,17 @@ header #header-caption {
     right: 0;
 }
 
-header button{
-        width: 150px;
+header button {
+    width: 150px;
     height: 50px;
     background-color: transparent;
-    color:#fff;
-    border-radius:10px;
+    color: #fff;
+    border-radius: 10px;
     margin-top: 25px;
     transition: 0.5s;
 }
 
-header button:hover{
+header button:hover {
     background-color: darkgray;
     transition: 0.5s;
 }
@@ -205,15 +206,13 @@ header button:hover{
     margin-top: 50px;
 }
 
-#skills .col-md-offset-3{
-      border-radius: 5px;
+#skills .col-md-offset-3 {
+    border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 50px;
     box-shadow: 0px 15px 20px -1px rgba(0, 0, 0, 0.53);
     padding-bottom: 5px;
     padding-top: 5px;
-
-  
 }
 
 #skills .container {
@@ -302,26 +301,24 @@ figcaption {
     top: 1%;
 }
 
-#skills .container-fluid{
+#skills .container-fluid {
     background-color: #3C3D3B;
-    color:#fff;
+    color: #fff;
 }
 
- #container-other h2{ border-radius: 5px;
-      border-left: 1px solid #fff;
+#container-other h2 {
+    border-radius: 5px;
+    border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
-     width: 200px;
-}
-    
-
-
-#skills .container-fluid #offset-other{
-   box-shadow: 0px 15px 20px -1px #fff;
-    
+    width: 200px;
 }
 
-#skills .container-fluid .fa{
-   border-right: 2px solid #fff;
+#skills .container-fluid #offset-other {
+    box-shadow: 0px 15px 20px -1px #fff;
+}
+
+#skills .container-fluid .fa {
+    border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
     border-radius: 10px;
 }
@@ -329,51 +326,60 @@ figcaption {
 
 /*experience section*/
 
-#experience{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/technology-785742_1280.jpg);
+#experience {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/technology-785742_1280.jpg);
     width: 100%;
     height: auto;
     background-size: cover;
     background-position: bottom;
-    color:#fff;
-    
+    color: #fff;
 }
 
-#experience h2{
-    color:#fff;
+#experience h2 {
+    color: #fff;
     border-radius: 5px;
-      border-left: 1px solid #fff;
+    border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
-     width: 200px;
+    width: 200px;
 }
 
-
-
-.list-group-item.active, .list-group-item.active:focus,  .list-group-item.active:hover{
-    background-color:transparent;
-    border:1px solid #fff;
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
     margin-top: 50px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
-.list-group-item.active:hover{
-    color:grey;
-    border:1px solid grey;
+.list-group-item.active:hover {
+    color: grey;
+    border: 1px solid grey;
 }
 
-.list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text{
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text {
     color: #cacacd;
 }
 
 
 /*education section style*/
 
-#education{
-    background-image:
-    width: 100%;
-    height:auto;
+#education {
+    background-image: width: 100%;
+    height: auto;
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
-
+#education .col-md-6 {
+   
+     border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0px 15px 20px -1px rgba(0, 0, 0, 0.53);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
