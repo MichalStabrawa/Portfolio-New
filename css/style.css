@@ -330,7 +330,7 @@ figcaption {
 /*experience section*/
 
 #experience{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/technology-785742_1280.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/technology-785742_1280.jpg);
     width: 100%;
     height: auto;
     background-size: cover;
@@ -353,6 +353,7 @@ figcaption {
     background-color:transparent;
     border:1px solid #fff;
     margin-top: 50px;
+    margin-bottom:50px;
 }
 
 .list-group-item.active:hover{
@@ -362,6 +363,17 @@ figcaption {
 
 .list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text{
     color: #cacacd;
+}
+
+
+/*education section style*/
+
+#education{
+    background-image:
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    background-position: center;
 }
 
 
