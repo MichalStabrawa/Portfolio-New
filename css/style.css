@@ -405,7 +405,7 @@ figcaption {
     background-position: center;
 }
 
-#portfolio h2{
+#portfolio h2{margin-bottom:     35px;
     border-color: #fff;
 }
 
@@ -486,8 +486,8 @@ h5{
    margin-top: 30%;
 }
 
-footer{margin-top: 20px;
- background-color:dimgrey;
+footer{
+ background-color: #3C3D3B;
     color:#fff;
 }
 
@@ -512,3 +512,17 @@ img-footer{
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+footer h2{border-color:#fff;
+    color:#fff;
+    margin-bottom: 35px;
+}
+
+footer a{
+    color:#fff;
+}
+
+footer .fa{
+    margin: 10px;
+}
+
