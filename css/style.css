@@ -18,6 +18,7 @@ h2 {
     border-bottom: 1px solid black;
     border-radius: 5px;
     margin-top: 50px;
+opacity:0;
 }
 
 
@@ -94,7 +95,7 @@ header #header-caption {
     width: 100%;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%/-50%);
     text-align: center;
     left: 0;
     right: 0;
@@ -163,7 +164,7 @@ header button:hover {
 }
 
 
-/*About section*/
+/*About section--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #about figure:hover .link {
     background-color: #111;
@@ -200,7 +201,7 @@ header button:hover {
 }
 
 
-/*Skills style start*/
+/*Skills style start-------------------------------------------------------------------------------------------------------------------------------*/
 
 #skills {
     margin-top: 50px;
@@ -244,7 +245,7 @@ figcaption {
 }
 
 
-/*Skills1*/
+/*Skills1----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #skills1 {
     position: fixed;
@@ -287,7 +288,7 @@ figcaption {
 }
 
 
-/*Skills2*/
+/*Skills2 style----------------------------------------------------------------------------*/
 
 #skills2 {
     position: fixed;
@@ -337,7 +338,7 @@ figcaption {
 }
 
 
-/*experience section*/
+/*experience section--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #experience {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/technology-785742_1280.jpg);
@@ -377,7 +378,7 @@ figcaption {
 }
 
 
-/*education section style*/
+/*education section style-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #education {
     background-image: width: 100%;
@@ -396,6 +397,9 @@ figcaption {
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
+
+/*portfolio section style----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #portfolio{color:#fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/blur-1853305_1280.jpg);
@@ -485,6 +489,10 @@ h5{
   padding:10px;
    margin-top: 30%;
 }
+
+
+
+/*footer-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 footer{
  background-color: #3C3D3B;
