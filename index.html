@@ -43,10 +43,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
 
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#skills">Umiejętnośći</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-scroll">Contact</a></li>
+                <li><a href="#contact-scroll">Kontakt</a></li>
 
             </ul>
 
@@ -60,7 +60,9 @@
         <div class="container-fluid">
             <div id="header-caption">
                 <h1 class="tlt">Junior Front End DEVELOPER</h1>
-           <a href="#contact-scroll"><button>Contact</button></a> 
+                <a href="#contact-scroll">
+                    <button>Kontakt</button>
+                </a>
             </div>
         </div>
 
@@ -71,7 +73,7 @@
     <section id="about">
 
         <div class="container">
-            <h2>About</h2>
+            <h2>O mnie</h2>
             <div class="row">
                 <div class="col-md-12  text-center ">
                     <figure class="center-block">
@@ -101,7 +103,7 @@
 
     <section id="skills">
         <div class="container">
-            <h2>Skills</h2>
+            <h2>Umiejętności</h2>
 
             <div class="row">
                 <div class="col-md-4 col-sm-6 text-center " id="show1">
@@ -139,25 +141,31 @@
             </div>
         </div>
 
-        <!--modal popup-->
+        <!--modal popup-------------------------------------------->
         <div class="row">
             <div class="col-md-12 pop1 text-center " id="skills1">
                 <h3>HTML5</h3>
 
-<p>Header,footer,section, nav</p>
+                <p>Header,footer,section, nav</p>
 
-                <button id="skillsHtml"><i class="fa fa-2x fa-times" aria-hidden="true"></i>
+                <button id="skillsHtml" class="popUpBtnClose"><i class="fa fa-2x fa-times" aria-hidden="true"></i>
                     <!---->
                 </button>
 
             </div>
 
+            <!--css popUp------------------------>
             <div class="row">
                 <div class="col-md-12 pop1 text-center " id="skills2">
-                    <h3>CSS3</h3>
+                   <h3>CSS3 Animation</h3>
+                    <div class="row">
+                       
+                        <div class="col-md-4" id="animation-div">
+                           <figure><img src="img/portret1.png" alt=""></figure>
+                        </div>
+                    </div>
 
-
-                    <button id="skillsHtml"><i class="fa fa-2x fa-times" aria-hidden="true"></i> close
+                    <button class="popUpBtnClose" id="bt"><i class="fa fa-2x fa-times" aria-hidden="true"></i>
                     </button>
 
                 </div>
@@ -167,9 +175,11 @@
 
         </div>
 
+        <!--other -->
+
         <div class="container-fluid">
             <div class="container" id="container-other">
-                <h2>Other</h2>
+                <h2>Inne</h2>
                 <div class="row" id="other-row">
                     <div class="col-md-4 col-sm-6 text-center" class="other-icons">
                         <i class="fa fa-5x fa-line-chart" aria-hidden="true"></i>
@@ -195,8 +205,10 @@
             </div>
         </div>
 
+        <!--to learn--------------------------------------------->
+
         <div class="container">
-            <h2>To learn</h2>
+            <h2>Zamierzam poznać</h2>
             <div class="row">
                 <div class="col-md-4 col-sm-6 text-center " id="show1">
                     <img src="icons/angular.png" alt="">
@@ -214,30 +226,30 @@
             </div>
             <div class="row center-block ">
                 <div class="col-md-6 col-md-offset-3 text-left " id="offset-other">
-                    <p>Technologie które chce poznać w najbliższej przyszłości to Angular oraz React. Zamierzam też poznać języki backendowe takie jak C# i Asp.net</p>
+                    <p>Technologie które chce poznać w najbliższej przyszłości to Angular oraz React. Zamierzam też poznać języki backendowe takie jak C#, Asp.net oraz SQL </p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!--experience section-->
+    <!--experience section-------------------------------------------------------------------------->
 
     <section id="experience">
         <div class="container">
-            <h2>Experience</h2>
+            <h2>Doświadczenie</h2>
             <div class="row">
                 <div class="col-md-12">
                     <div class="list-group">
                         <a href="#" class="list-group-item active">
                             <h4 class="list-group-item-heading">Junior Front End Developer-Freelancer</h4>
-                            <p class="list-group-item-text"><i class="fa  fa-building-o" aria-hidden="true"></i> Od 06.2017: Obecnie pracuję jako freelancer. Staram się przekładać naukę na jak największą praktyczną ilość kodu. Moje komercyjne projekty które zrealizowałem dostępne sa w dziale Portfolio.Projekty tworzę samodzielnie zaczynając od grafiki kończąc na kodzie.</p>
+                            <p class="list-group-item-text"><i class="fa  fa-building-o" aria-hidden="true"></i> Od 06.2017: Obecnie pracuję i rozwijam swoje umiejętności jako freelancer. Staram się przekładać naukę na jak największą praktyczną ilość kodu. Moje komercyjne projekty które zrealizowałem dostępne sa w dziale Portfolio.</p>
                         </a>
                     </div>
                     <div class="list-group">
                         <a href="http://www.zoogopsifryzjer.pl/" class="list-group-item active" target="_blank">
                             <h4 class="list-group-item-heading">E-commerce Specjalist-Zoogo Dystrybucja</h4>
-                            <p class="list-group-item-text"><i class="fa fa-building-o" aria-hidden="true"></i> 05.2016-05.2017:Posiadam ponad roczne doświadczenie w E-commerce. Prowadziłem samodzielnie sklep internetowy na platformie shoper. Obowiązki: SEO/SEM, opisy produktów, grafiki,marketing internetowy- social media.Stworzyłem też 2 firmowe strony w Wordpress oraz prowadziłem dla firmy kanały na Youtube,Fb,Google+,Instagram,Pinterest</p>
+                            <p class="list-group-item-text"><i class="fa fa-building-o" aria-hidden="true"></i> 05.2016-05.2017:Posiadam ponad roczne doświadczenie w E-commerce. Prowadziłem samodzielnie sklep internetowy na platformie Shoper. Obowiązki: SEO/SEM, opisy produktów, grafiki,marketing internetowy- social media.Stworzyłem też 2 firmowe strony w Wordpress oraz prowadziłem dla firmy kanały na Youtube,Fb,Google+,Instagram,Pinterest</p>
                         </a>
                     </div>
                     <div class="list-group">
@@ -250,32 +262,32 @@
             </div>
         </div>
     </section>
-    
+
     <section id="education">
         <div class="container">
-            <h2>Education</h2>
+            <h2>Edukacja</h2>
             <div class="row center-block ">
                 <div class="col-md-6 ">
                     <i class="fa fa-4x fa-university" aria-hidden="true"></i>
                     <h4>Wyższa Szkoła Turystyki i Rekreacji w Suchej Beskidzkiej</h4>
                     <h5>Menager Spa&amp;Wellness</h5>
-                   
+
                 </div>
-                 <div class="col-md-6">
+                <div class="col-md-6">
                     <i class="fa fa-4x fa-university text-center" aria-hidden="true"></i>
-                    <h4>Wyższa Szkoła Ekonomii i Informatyki w Krakowie</h4>
-                    <h5>Programowanie Aplikacji Webowych w Środowisku Microsoft</h5>
+                    <h4>Gregory & Monsters Kraków</h4>
+                    <h5>Kurs Full Stack Developer-obecnie</h5>
                 </div>
             </div>
-            
-              <div class="row center-block ">
+
+            <div class="row center-block ">
                 <div class="col-md-6 ">
                     <i class="fa fa-4x fa-certificate" aria-hidden="true"></i>
                     <h4>Akademia 108 Kraków</h4>
                     <h5>Kurs Front End Developer</h5>
-                   
+
                 </div>
-                 <div class="col-md-6">
+                <div class="col-md-6">
                     <i class="fa fa-4x fa-certificate" aria-hidden="true"></i>
                     <h4>ARTAX IT Kraków</h4>
                     <h5>Szkolenie Java Script,jQuery</h5>
@@ -283,95 +295,129 @@
             </div>
         </div>
     </section>
-    
+
     <section id="portfolio">
         <div class="container">
             <h2>Portfolio</h2>
             <div class="row">
                 <div class="col-md-6">
                     <figure><img src="img/model-600238_640.jpg" alt="">
-                    <div class="img-mask"><p>Projekt strony internetowej sklepu z odzieżą</p></div></figure>
-                   
-                    
+                        <div class="img-mask">
+                            <p>Projekt strony internetowej sklepu z odzieżą</p>
+                        </div>
+                    </figure>
+
+
                     <div class="img-fgr text-center">
-                     <h5>Fashion Store</h5>
-                  <a href="https://michalstabrawa.github.io/fashionstore/">  <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button></a> 
+                        <h5>Fashion Store</h5>
+                        <a href="https://michalstabrawa.github.io/fashionstore/">
+                            <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button>
+                        </a>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6">
                     <figure><img src="img/auto-service.png" alt="">
-                     <div class="img-mask"><p>Projekt strony internetowej Auto-Service</p></div></figure>
-                      
+                        <div class="img-mask">
+                            <p>Projekt strony internetowej Auto-Service</p>
+                        </div>
+                    </figure>
+
                     <div class="img-fgr text-center">
-                     <h5>Auto Service</h5>
-                     
-                   <a href="https://michalstabrawa.github.io/AutoMechanik/"> <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button></a> 
+                        <h5>Auto Service</h5>
+
+                        <a href="https://michalstabrawa.github.io/AutoMechanik/">
+                            <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button>
+                        </a>
                     </div>
                 </div>
             </div>
-            
-             <div class="row">
+
+            <div class="row">
                 <div class="col-md-6">
-                    <figure><img src="img/nails-studio.jpg" alt=""><div class="img-mask"><p>Projekt strony internetowej wykonany dla Studia Stylizacji Paznokci Nails-Studio</p></div></figure>
-                   
-                    
+                    <figure><img src="img/nails-studio.jpg" alt="">
+                        <div class="img-mask">
+                            <p>Projekt strony internetowej wykonany dla Studia Stylizacji Paznokci Nails-Studio</p>
+                        </div>
+                    </figure>
+
+
                     <div class="img-fgr text-center">
-                     <h5>Nails-Studio</h5>
-                  <a href="https://michalstabrawa.github.io/nails-studio/"> <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button></a>  
+                        <h5>Nails-Studio</h5>
+                        <a href="https://michalstabrawa.github.io/nails-studio/">
+                            <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button>
+                        </a>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6">
-                    <figure><img src="img/tropidog.png" alt=""><div class="img-mask"><p>Landing Page wykonany dla sklepu internetowego</p></div></figure>
-                      
+                    <figure><img src="img/tropidog.png" alt="">
+                        <div class="img-mask">
+                            <p>Landing Page wykonany dla sklepu internetowego</p>
+                        </div>
+                    </figure>
+
                     <div class="img-fgr text-center">
-                     <h5>Tropidog</h5>
-                <a href="https://michalstabrawa.github.io/Tropidog/"><button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button></a>     
+                        <h5>Tropidog</h5>
+                        <a href="https://michalstabrawa.github.io/Tropidog/">
+                            <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button>
+                        </a>
                     </div>
                 </div>
             </div>
-            
-               <div class="row">
+
+            <div class="row">
                 <div class="col-md-6">
-                    <figure><img src="img/apartment-2094689_1280.jpg" alt=""><div class="img-mask"><p>Strona firmowa usługi noclegowe</p></div></figure>
-                   
-                    
+                    <figure><img src="img/apartment-2094689_1280.jpg" alt="">
+                        <div class="img-mask">
+                            <p>Strona firmowa usługi noclegowe</p>
+                        </div>
+                    </figure>
+
+
                     <div class="img-fgr text-center">
-                     <h5>Noclegi pod Lipkami</h5>
-                   <a href="https://michalstabrawa.github.io/noclegi-skawina/"> <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button></a> 
+                        <h5>Noclegi pod Lipkami</h5>
+                        <a href="https://michalstabrawa.github.io/noclegi-skawina/">
+                            <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button>
+                        </a>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6">
-                    <figure><img src="img/ogrod-marzen.png" alt=""><div class="img-mask"><p>Strona firmowa sklep ogrodniczo-zoologiczny</p></div></figure>
-                      
+                    <figure><img src="img/Gym.png" alt="">
+                        <div class="img-mask">
+                            <p>Projekt strony siłowni</p>
+                        </div>
+                    </figure>
+
                     <div class="img-fgr text-center">
-                     <h5>Ogród Marzeń</h5>
-                    <a href="https://michalstabrawa.github.io/Projekt-Ogrod-Portfolio/"><button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button></a> 
+                        <h5>Gym</h5>
+                        <a href="https://michalstabrawa.github.io/gym/">
+                            <button class="btn btn-default btn-lg text-center"><i class="fa fa-search" aria-hidden="true"> Live</i></button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    
+
+    <!--footer section-->
     <footer>
         <div class="container" id="contact-scroll">
             <div class="row">
-                <h2>Contact</h2>
+                <h2>Kontakt</h2>
                 <div class="col-md-12 text-center">
-                 <address><p>Michał Stabrawa</p>
+                    <address><p>Michał Stabrawa</p>
                 <p><a href="mistaaqua@gmail.com">mistaaqua@gmail.com</a></p> 
                <p>Telefon 533197333</p>  </address>
                 </div>
-              
-               
+
+
             </div>
-            
+
             <div class="row">
-                  <div class="col-md-12 text-center">
-                     <a href="https://github.com/MichalStabrawa"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+                <div class="col-md-12 text-center">
+                    <a href="https://github.com/MichalStabrawa"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
                     <a href="https://www.linkedin.com/in/michal-stabrawa-48b408102/"> <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -379,16 +425,7 @@
     </footer>
 
 
-<!-- Large modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      ...
-    </div>
-  </div>
-</div>
 
 
     <!--Script Jquery ,Js-->

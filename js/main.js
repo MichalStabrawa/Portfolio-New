@@ -67,10 +67,10 @@ var menuHeight = $('#main-nav').height();
 
 
 /*Skills1 Hide----------------------------------------------------------------------------------------------------------------*/
-function hideSkills1(){
-  document.getElementById('skills1').style= 'display:none';
-}
-document.getElementById('skillsHtml').addEventListener('click', hideSkills1);
+//function hideSkills1(){
+ // document.getElementById('skills1').style= 'display:none';
+//}
+//document.getElementById('skillsHtml').addEventListener(//'click', hideSkills1);
 
 
 
@@ -108,4 +108,24 @@ $(document).ready(function() {
     });
     
 });
+
+
+function cssShowPopUp(){
+    document.getElementById('skills2').style.display="block"
+}
+document.getElementById('show2').addEventListener('click',cssShowPopUp);
+
+/*function hide skills2*/
+
+//function popCssHide(){
+ //   var popUpCss=document.getElementById('skills2');
+  //  popUpCss.style.display="none";
+//}
+//document.getElementById('bt').addEventListener('click',popCssHide);
+
+$(document).ready(function(){
+  $('.popUpBtnClose').click(function(){
+    $('.pop1 ').css('display','none');
+  });
+})
 

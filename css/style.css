@@ -54,7 +54,7 @@ opacity:0;
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     font-size: 1.5rem;
-    width: 100px;
+    width: 150px;
     margin-top: 5px;
     transition: 0.3s;
     border-left: 1px solid grey;
@@ -245,6 +245,18 @@ figcaption {
 }
 
 
+/*popUpBtnClose style*/
+
+.popUpBtnClose {
+    position: absolute;
+    z-index: 101;
+    right: 1%;
+    top: 1%;
+    background-color: transparent;
+    color: #fff;
+    border: transparent;
+}
+
 /*Skills1----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #skills1 {
@@ -261,7 +273,7 @@ figcaption {
     height: 95%;
     display: none;
     text-align: center;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/code-1076533_1280.jpg);
+    background-image:linear-gradient(rgba(40, 36, 60, 0.9),rgba(40, 36, 60, 0.9)), url(../img/code-1076533_1280.jpg);
     background-position: left top;
     background-size: cover;
     color:#fff;
@@ -277,15 +289,7 @@ figcaption {
     font-size: 2.5rem;
 }
 
-#skills1 #skillsHtml {
-    position: absolute;
-    z-index: 101;
-    right: 1%;
-    top: 1%;
-    background-color: transparent;
-    color: #fff;
-    border: transparent;
-}
+
 
 
 /*Skills2 style----------------------------------------------------------------------------*/
@@ -299,22 +303,94 @@ figcaption {
     transform: translateY(-50%);
     border: 1px solid black;
     border-radius: 5px;
-    background: grey;
+   
     opacity: 0.99;
-    height: 100%;
-    display: none;
+    height: 90vh;
+    display:none;
     text-align: center;
+    background-image:linear-gradient(rgba(40, 36, 60, 0.9),rgba(40, 36, 60, 0.9)),url(../img/code-2620118_1280.jpg);
+    background-position: right;
+    background-size: cover;
+    color:#fff;
+}
+
+#skills2 h3{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: animation2;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    
 }
 
 
 
-#skills2 .skillsHtml {
+#skills2 .popUpBtnClose {
     position: absolute;
     z-index: 101;
     right: 1%;
     top: 1%;
 }
 
+#skills2 .row{height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#skills #skills2 #animation-div{
+    width: 280px;
+    height: 280px;
+    background: #fff;
+    border-radius:50%;
+    margin:0px;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+   
+}
+
+#skills2 #animation-div figure{
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border-radius:50%;
+}
+
+#skills2 #animation-div figure img{
+    width: 280px;
+    height: 280px;
+    transition: 0.4s;
+}
+#skills2 #animation-div figure img:hover{
+    transform:scale(1.2);
+    transform: rotate(40deg);
+    transition: 0.5s;
+}
+
+@keyframes animation1{
+    0%   { left:0px; top:0px;}
+    25%  { left:10%; top:0px;}
+    50%  { left:-10%; top:10%;}
+    75%  { left:0px; top:10%;}
+    100% { left:0px; top:0px;}
+}
+
+@keyframes animation2{
+    0%   {  color:fff;}
+    25%  { color:darkgoldenrod; }
+    50%  { color:fuchsia;}
+    75%  {  color:red;}
+    100% { color:chartreuse;}
+}
+
+
+
+/*other-----------------------------------------------*/
 #skills .container-fluid {
     background-color: #3C3D3B;
     color: #fff;
