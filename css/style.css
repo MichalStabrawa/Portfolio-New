@@ -305,7 +305,7 @@ figcaption {
     border-radius: 5px;
    
     opacity: 0.99;
-    height: 90vh;
+    height: 95vh;
     display:none;
     text-align: center;
     background-image:linear-gradient(rgba(40, 36, 60, 0.9),rgba(40, 36, 60, 0.9)),url(../img/code-2620118_1280.jpg);
