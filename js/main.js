@@ -29,48 +29,9 @@ var menuHeight = $('#main-nav').height();
 
 });
 
-/*Toogle-------------------------------------------------------------------------------------------------------------- */
-//$(document).ready(function(){
-  //  $(".btn").click(function(){
-   //     $("#div1").toggle(1000);
-   // });
-//});
 
 
-//function wyslij(){
-//    var pokazDiva=document.getElementById('pokaz')  
- //   document.getElementById('pokaz').style="display:block"
-//}
 
-//document.getElementById('button1').addEventListener('click',wyslij)
-
-
-/*Popup*******************************************************************************************************************************8*/
-
-//var myVar;
-
-//function myFunction() {
-   // myVar = setTimeout(popUp, 3000);
-//};
-
-
-//function popUp(){
-//  var popSchowaj=document.getElementById('popup');
- // popSchowaj.style="display:block"
-//};
-
-//function popUp1(){
-   // var baner=document.getElementById('popup')
-    //baner.style='display:none'
-   // }
-//document.getElementById('popNone').addEventListener('click',popUp1)
-
-
-/*Skills1 Hide----------------------------------------------------------------------------------------------------------------*/
-//function hideSkills1(){
- // document.getElementById('skills1').style= 'display:none';
-//}
-//document.getElementById('skillsHtml').addEventListener(//'click', hideSkills1);
 
 
 
@@ -115,17 +76,38 @@ function cssShowPopUp(){
 }
 document.getElementById('show2').addEventListener('click',cssShowPopUp);
 
-/*function hide skills2*/
 
-//function popCssHide(){
- //   var popUpCss=document.getElementById('skills2');
-  //  popUpCss.style.display="none";
-//}
-//document.getElementById('bt').addEventListener('click',popCssHide);
+/*modal-contact*/
+$('#contactBtn').click(function(){
+    $('.modal-contact').show(1000);
+    console.log('Dziala');
+})
 
 $(document).ready(function(){
+
   $('.popUpBtnClose').click(function(){
-    $('.pop1 ').css('display','none');
+    $('.pop1 ').hide(1000);
+      
   });
+   
+    })
+
+$('.popBtn1').click(function(){
+    $('.modal-contact').hide(1000);
 })
+
+
+
+
+
+
+  
+
+
+
+ 
+
+
+
+
 
